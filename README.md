@@ -69,6 +69,39 @@ git init
 git add .
 git commit -m "Lab6Web: DOM dan Event Handling"
 git branch -M main
-git remote add origin https://github.com/<hedoy13/Lab6Web.git
+git remote add origin https://github.com/hedoy13/Lab6Web.git
 git push -u origin main
 ```
+## Screenshot Hasil
+
+### Latihan 1
+![Latihan 1](screenshots/latihan1.png)
+
+### Latihan 2
+![Latihan 2](screenshots/latihan2.png)
+
+### Latihan 3
+![Sebelum](screenshots/latihan3_sebelum.png)
+![Sesudah](screenshots/latihan3_sesudah.png)
+
+### Latihan 4
+![Latihan 4](screenshots/latihan4.png)
+
+### Latihan 5
+![Kosong](screenshots/latihan5_kosong.png)
+![Nama pendek](screenshots/latihan5_nama_pendek.png)
+![Email tidak valid](screenshots/latihan5_email.png)
+![Usia tidak valid](screenshots/latihan5_usia.png)
+![Valid](screenshots/latihan5_valid.png)
+
+### Latihan 6
+![Latihan 6](screenshots/latihan6.png)
+
+### Eksperimen 4
+![Sembunyi](screenshots/eksperimen4_sembunyi.png)
+
+### Mini Project
+![Error](screenshots/mini_error.png)
+![Ringkasan langsung](screenshots/mini_live.png)
+![Sukses](screenshots/mini_sukses.png)
+![Reset](screenshots/mini_reset.png)
