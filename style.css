@@ -1,0 +1,11 @@
+body { font-family: system-ui, sans-serif; max-width: 640px; margin: 0 auto; padding: 16px; line-height: 1.5; color: #1d2433; }
+label { display: block; margin-top: 10px; font-weight: 600; }
+input, select, textarea { width: 100%; padding: 8px; box-sizing: border-box; border: 1px solid #b6c0cf; border-radius: 6px; font: inherit; }
+button { padding: 8px 14px; margin-top: 10px; border: 0; border-radius: 6px; background: #3478c8; color: #fff; cursor: pointer; font: inherit; }
+button:hover { background: #173f75; }
+.highlight { color: #173f75; background-color: #e6f1ff; border-left: 4px solid #3478c8; padding: 12px; }
+.teks-besar { font-size: 1.4rem; }
+.selesai span { text-decoration: line-through; color: #687386; }
+li { margin-bottom: 8px; }
+.hapus { background: #c0392b; margin-left: 6px; }
+.sembunyi { display: none; }

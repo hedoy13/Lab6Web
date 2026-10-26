@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Pendaftaran Workshop</title>
+ <link rel="stylesheet" href="style.css">
+ <script src="script.js" defer></script>
+</head>
+<body>
+ <main class="kartu">
+  <h1>Pendaftaran Workshop Web</h1>
+  <form id="formWorkshop" novalidate>
+   <label for="nama">Nama lengkap</label>
+   <input id="nama" type="text" autocomplete="name">
+   <small class="error" id="errNama"></small>
+
+   <label for="email">Email</label>
+   <input id="email" type="email" autocomplete="email">
+   <small class="error" id="errEmail"></small>
+
+   <label for="sesi">Sesi workshop</label>
+   <select id="sesi">
+    <option value="">-- Pilih sesi --</option>
+    <option value="HTML &amp; CSS Dasar">HTML &amp; CSS Dasar (Senin 09.00)</option>
+    <option value="JavaScript DOM">JavaScript DOM (Selasa 13.00)</option>
+    <option value="Responsive Design">Responsive Design (Rabu 10.00)</option>
+   </select>
+   <small class="info" id="infoSesi"></small>
+   <small class="error" id="errSesi"></small>
+
+   <label for="catatan">Catatan (opsional)</label>
+   <textarea id="catatan" rows="3" maxlength="150"></textarea>
+   <small>Karakter: <span id="hitung">0</span>/150</small>
+
+   <div class="aksi">
+    <button type="submit">Daftar</button>
+    <button type="button" id="tombolReset" class="sekunder">Reset</button>
+   </div>
+  </form>
+  <p id="sukses" class="sukses" aria-live="polite"></p>
+  <section class="ringkasan">
+   <h2>Ringkasan Langsung</h2>
+   <p>Nama: <strong id="rNama">-</strong></p>
+   <p>Email: <strong id="rEmail">-</strong></p>
+   <p>Sesi: <strong id="rSesi">-</strong></p>
+  </section>
+ </main>
+</body>
+</html>

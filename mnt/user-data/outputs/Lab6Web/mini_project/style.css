@@ -1,0 +1,18 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; background: #eef3fa; color: #1d2433; padding: 16px; }
+.kartu { max-width: 520px; margin: 0 auto; background: #fff; padding: 20px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,.08); }
+h1 { font-size: 1.4rem; margin-top: 0; }
+label { display: block; margin-top: 12px; font-weight: 600; }
+input, select, textarea { width: 100%; padding: 10px; border: 1px solid #b6c0cf; border-radius: 6px; font: inherit; }
+input.invalid, select.invalid { border-color: #c0392b; background: #fff5f4; }
+small { display: block; margin-top: 4px; color: #687386; }
+.error { color: #c0392b; }
+.info { color: #173f75; }
+.aksi { display: flex; gap: 8px; margin-top: 16px; }
+button { flex: 1; padding: 10px; border: 0; border-radius: 6px; background: #3478c8; color: #fff; font: inherit; cursor: pointer; }
+button.sekunder { background: #687386; }
+.sukses { color: #1e7e46; font-weight: 600; }
+.ringkasan { margin-top: 16px; padding: 12px; background: #e6f1ff; border-left: 4px solid #3478c8; border-radius: 6px; }
+.ringkasan h2 { font-size: 1rem; margin: 0 0 6px; }
+.ringkasan p { margin: 2px 0; }
+@media (max-width: 480px) { .kartu { padding: 14px; } .aksi { flex-direction: column; } }
